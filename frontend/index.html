@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+	<head>
+
+		<meta charset="UTF-8" />
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="application-name" content="Room-Chatter" />
+		<meta name="author" content="Michael K Macharia" />
+		<meta name="description" content="A NodeJS-based webapp for multiuser room chatting." />
+		<meta name="keywords" content="Room, Chatter, Room-Chatter." />
+		<meta name="pragma" content="cache" />
+		<meta name="robots" content="nofollow" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximun-scale=1.0, user-scalable=no" />
+
+		<title>Room-Chatter</title>
+
+		<link type="image/vnd.microsoft.icon" rel="icon" sizes="any" href="favicon.ico" />
+		<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+		<link type="text/css" rel="stylesheet" href="index.css" />
+
+		<script type="text/javascript" src="index.js" defer></script>
+
+	</head>
+
+	<body>
+		<div class="join-container">
+
+			<header class="join-header">
+				<h1><i class="fas fa-smile"></i> Room-Chatter</h1>
+			</header>
+
+			<main class="join-main">
+				<form action="room.html">
+
+					<div class="form-control">
+
+						<label for="username">Username</label>
+						<input type="text" name="username" id="username" placeholder="Enter your username..." required />
+
+					</div>
+
+					<div class="form-control">
+
+						<label for="room">Room</label>
+						<select name="room" id="room">
+							<option value="Business">Business</option>
+							<option value="Finance">Finance</option>
+							<option value="Movies">Movies</option>
+							<option value="Music">Music</option>
+							<option value="Politics">Politics</option>
+							<option value="Religion">Religion</option>
+							<option value="Sex">Sex</option>
+							<option value="Sports">Sports</option>
+							<option value="Streaming">Streaming</option>
+							<option value="Technology">Technology</option>
+						</select>
+
+					</div>
+
+					<button type="submit" class="btn">Join Room</button>
+
+				</form>
+			</main>
+
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,37 @@
+{
+  "name": "room-chatter",
+  "version": "1.0.0",
+  "description": "A NodeJS-based webapp for multiuser room chatting.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "prod": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/universal-projects/room-chatter.git"
+  },
+  "keywords": [
+    "room",
+    "chatter",
+    "room-chatter"
+  ],
+  "author": "Michael K Macharia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/universal-projects/room-chatter/issues"
+  },
+  "homepage": "https://github.com/universal-projects/room-chatter#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.17.3",
+		"http": "0.0.1-security",
+		"moment": "^2.24.0",
+    "path": "^0.0.1",
+		"socket.io": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
